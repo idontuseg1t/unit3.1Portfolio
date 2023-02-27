@@ -28,3 +28,18 @@ for i in range(num):
     i +=1
 
 ```
+
+rabbit counter from grok
+
+```python
+init = int(input("Initial population: "))
+final = int(input("Final population: "))
+pop = float(init)
+yearcount = 0
+while pop < final:
+  pop = pop * 1.37
+  yearcount += 1
+  
+print(f"It would take {yearcount} years for there to be {final} rabbits.")
+  
+```
